@@ -1,0 +1,102 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #fafafa;
+    font-family: Poppins, sans-serif;
+    color: rgb(51, 51, 51);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 70px 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.content {
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    height: 70vh;
+}
+
+#about, #skills, #achievement, #projects, #contact {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name-container h1 {
+    margin: 0;
+}
+
+.name-container h2 {
+    margin: 10px 0;
+}
+
+.content h1 {
+    margin-right: 70px;
+}
+
+#logo {
+    height: 35px;
+    width: 60px;
+    margin-top: 3px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: #fafafa;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    transition: color 0.1s;
+}
+
+.nav-links a:hover {
+    color:blue;
+}
+
+#portrait {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+
