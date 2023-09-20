@@ -188,6 +188,10 @@ header {
         height: 100px;
         width: 100px;
     }
+
+    #about, #skills, #achievement, #projects, #contact {  
+    width: 75%;
+    }
     
 }
 
