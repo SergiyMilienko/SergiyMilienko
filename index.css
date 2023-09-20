@@ -100,3 +100,113 @@ header {
     border-radius: 100%;
 }
 
+/* Styles for larger screens (e.g., desktops) */
+@media screen and (min-width: 768px) {
+    .main {
+        margin: 70px 0;
+    }
+    .content {
+        padding: 30px;
+    }
+    .content h1 {
+        margin-right: 70px;
+    }
+}
+
+/* Styles for medium-sized screens (e.g., tablets) */
+@media screen and (max-width: 767px) {
+    .main {
+        margin: 50px 0;
+    }
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+    .content {
+        padding: 20px;
+    }
+    .content h1 {
+        margin-right: 0;
+    }
+    .nav-links {
+        margin-top: 20px;
+    }
+    .nav-links li {
+        display: block;
+        margin: 10px 0;
+    }
+    header {
+        position: static;
+    }
+    #portrait {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+/* Styles for small screens (e.g., mobile phones) */
+@media screen and (max-width: 480px) {
+    .main {
+        margin: 20px 0;
+    }
+    .container {
+        padding: 10px;
+    }
+    .content {
+        padding: 10px;
+        height: auto;
+    }
+    .nav-links {
+        margin-top: 10px;
+    }
+    .nav-links li {
+        margin: 5px 0;
+    }
+    #portrait {
+        height: 100px;
+        width: 100px;
+    }
+    
+}
+
+/* Style the mobile menu button */
+#mobile-menu-button {
+    display: none; /* Initially hide the button */
+    background-color: transparent;
+    color: #333; /* Adjust text color to your design */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 20px;
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    right: 10px; /* Adjust the right position as needed */
+    border-radius: 5px;
+    margin-top: 12px;
+}
+
+/* Style the mobile menu button on hover */
+#mobile-menu-button:hover {
+    background-color: #333;
+    color: #fff; /* Text color when hovered */
+}
+
+/* Add CSS to show the navigation links when the button is active */
+#navbar.active .nav-links {
+    display: block;
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 767px) {
+    /* Show the mobile menu button on small screens */
+    #mobile-menu-button {
+        display: block;
+    }
+
+    /* Hide the regular navigation links on small screens */
+    .nav-links {
+        display: none;
+    }
+}
