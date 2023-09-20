@@ -188,10 +188,9 @@ header {
     font-size: 20px;
     margin-right: 20px;
     position: absolute;
-    top: 5%; /* Center vertically within the navbar */
-    transform: translateY(-50%); /* Center vertically within the navbar */
     right: 10px; /* Adjust the right position as needed */
     border-radius: 5px;
+    margin-top: 12px
 }
 
 /* Style the mobile menu button on hover */
