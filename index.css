@@ -27,8 +27,17 @@ body {
     padding: 30px;
     display: flex;
     align-items: center;
-    height: 70vh;
 }
+
+.content ul {
+    list-style: none;
+}
+
+.content img {
+    height: 70px;
+    width: 70px;
+}
+
 
 #about, #skills, #achievement, #projects, #contact {
     background-color: #fff;
@@ -37,6 +46,11 @@ body {
     margin: 20px;
     display: flex;
     flex-direction: column;
+    width: 50%;
+}
+
+#skills-box {
+    flex-direction: row;
 }
 
 .name-container {
